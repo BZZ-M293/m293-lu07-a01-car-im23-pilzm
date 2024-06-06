@@ -3,12 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <title>Fahrzeug-Konfigurator</title>
-
 </head>
+
+
 <body>
-
 <h1>Fahrzeug-Konfigurator</h1>
-
-
+<form action="#" method="post">
+  <section>
+    <label> Fahrzeugmodelle:
+      <select name="fahrzeugmodelle" size="5">
+        <option value="Porsche">Porsche</option>
+        <option value="Ferrari">Ferrari</option>
+        <option value="Lamborghini">Lamborghini</option>
+        <option value="Koenigsegg">Koenigsegg</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Kia">Kia</option>
+        <option value="Mustang">Mustang</option>
+        <option value="Aston Martin">Aston Martin</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="BMW">BMW</option>
+        <option value="VW">VW</option>
+        <option value="Tesla">Tesla</option>
+        <option value="Peugot">Peugot</option>
+        <option value="Bentley">Bentley</option>
+        <option value="Rolls Royls">Rolls Royls</option>
+      </select>
+    </label>
+  </section>
+  <section>
+    <input type="radio" id="bl" name="Lackfarbe" value="Black">
+    <label for="bl">Black</label>
+    <input type="radio" id="rd" name="Lackfarbe" value="Red">
+    <label for="rd">Red</label>
+    <input type="radio" id="sl" name="Lackfarbe" value="Silver">
+    <label for="sl">Silver</label>
+    <input type="radio" id="yl" name="Lackfarbe" value="Yellow">
+    <label for="yl">Yellow</label>
+  </section>
+  <section>
+    <button type="submit">Submit</button>
+  </section>
+</form>
 </body>
 </html>
